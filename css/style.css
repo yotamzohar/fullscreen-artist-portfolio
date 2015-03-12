@@ -93,7 +93,7 @@ a {
 }
 
 #top,#bottom,#left,#right {
-    background: #fff;
+    background: #000;
     position: fixed;
     z-index: 999999;
 }
@@ -657,4 +657,13 @@ html.swipebox {
 
 .lt-ie10 #swipebox-action #swipebox-close {
     right: 140px;
+}
+
+.painting-title{
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color:#111;
+    color:white;
+    padding: 3px 10px 14px 16px;
 }
